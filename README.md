@@ -12,5 +12,5 @@ IntellijIdea
 4. Build project
 5. Build artifacts
 6. Start up java -jar ticket-reader.jar or from Main in IntellijIdea
-   (ticket-reader.jar is located out/artifacts/ticket-reader.jar)
-7. You can also start app without following the previous steps from ticket-reader.jar from /resources
+   (ticket-reader.jar is located out/artifacts/ticket-reader.jar, you can copy this file and run app from any place on you PC)
+7. You can also start app without following the previous steps from ticket-reader.jar in /resources.
