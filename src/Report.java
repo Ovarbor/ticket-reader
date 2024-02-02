@@ -1,9 +1,11 @@
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
+
 import java.lang.reflect.Type;
 import java.time.LocalTime;
 import java.util.*;
 import java.util.stream.Collectors;
+
 import static java.time.LocalTime.ofSecondOfDay;
 
 public class Report {
