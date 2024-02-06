@@ -57,7 +57,7 @@ public class Report {
                 .forEach(ticket -> {
             String[] values = ticket.getDeparture_time().split(":");
             LocalTime flightTime = LocalTime.parse(ticket.getArrival_time()).minusHours(Long.parseLong(values[0].trim()))
-                    .minusMinutes(Long.parseLong(values[1].trim())).plusHours(8);
+                    .minusMinutes(Long.parseLong(values[1].trim())).plusHours(7);
             Integer convertedFlightTime = flightTime.toSecondOfDay();
             prices.add(ticket.getPrice());
             if (!carriers.containsKey(ticket.getCarrier())) {
